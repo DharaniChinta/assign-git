@@ -34,7 +34,12 @@ We can add more specific files or directories depending on our project.
 
 2) What does fast-forward in git mean? 
 
-Ans: Fast-forward merges literally move your main branch's tip forward to the end of your 
+Ans: "Fast-forward" in Git is a term used to describe a specific type of merging operation. 
+When you merge one branch into another, Git automatically evaluates the situation and chooses 
+the best strategy to use. The "fast-forward" strategy is a simple, efficient approach that is 
+used when the branch being merged is a linear continuation of the branch you are merging into.
+
+So fast-forward merges literally move your main branch's tip forward to the end of your 
 feature branch. This keeps all commits created in your feature branch sequential while 
 integrating it neatly back into your main branch.
 
